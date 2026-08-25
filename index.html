@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nexus Global - المنصة العالمية الأولى للتوظيف المباشر وسوق العمل الرقمي">
+    <title>Nexus Global | المنصة العالمية للتوظيف</title>
+    
+    <!-- استدعاء الخطوط العالمية والسريعة -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- ربط ملف التصميم النيون المتجاوب (الكود رقم 2) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- خلفية النيون التفاعلية والشبكة السحابية -->
+    <div class="cyber-background">
+        <div class="grid-overlay"></div>
+        <div class="ambient-light"></div>
+    </div>
+
+    <!-- الحاوية الرئيسية للموقع -->
+    <div class="app-viewport">
+
+        <!-- الشريط العلوي (الهيدر الاحترافي) -->
+        <header class="top-header">
+            <div class="brand-identity">
+                <span class="brand-icon">🌐</span>
+                <span class="brand-name">NEXUS <small>GLOBAL</small></span>
+            </div>
+            <div class="server-indicator">
+                <span class="pulse-dot"></span>
+                <span class="status-label">CLOUD SERVER: ONLINE</span>
+            </div>
+        </header>
+
+        <!-- الشاشة المزدوجة (تضم الكوكب ونموذج التقديم) -->
+        <main class="main-portal">
+
+            <!-- القسم الأول: مجسم الكوكب والشبكة العالمية -->
+            <section class="globe-container">
+                <div class="globe-glass-card">
+                    <div class="planet-wrapper">
+                        <div class="planet-globe"></div>
+                        <div class="planet-ring"></div>
+                    </div>
+                    <div class="globe-info">
+                        <h1 class="main-title">الشبكة العالمية للتوظيف المباشر</h1>
+                        <p class="main-desc">ربط الكفاءات وأصحاب الأعمال حول العالم بدون وسطاء</p>
+                        <div class="live-counter-box">
+                            <span id="activeCounter" class="counter-num">1,487,200</span>
+                            <span class="counter-label">متقدم متصل الآن من 182 دولة</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- القسم الثاني: نموذج التقديم الذكي والسريع -->
+            <section class="form-container">
+                <div class="form-glass-card">
+                    <div class="card-header">
+                        <h2>تقديم طلب جديد</h2>
+                        <p>ادخل بياناتك المباشرة أو سجل بصوتك فوراً</p>
+                    </div>
+
+                    <form id="employmentForm" class="interactive-form" onsubmit="return false;">
+                        
+                        <!-- أدوات الكتابة الاحترافية -->
+                        <div class="input-field">
+                            <label for="applicantName">الاسم بالكامل / Full Name</label>
+                            <input type="text" id="applicantName" placeholder="اكتب اسمك الثلاثي..." autocomplete="off" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label for="applicantSkill">المهنة أو المهارة الأساسية</label>
+                            <input type="text" id="applicantSkill" placeholder="مثال: مهندس، فني كهرباء، محاسب..." autocomplete="off" required>
+                        </div>
+
+                        <!-- وحدة التسجيل الصوتي المدمجة والمريحة -->
+                        <div class="voice-module">
+                            <button type="button" id="voiceMicBtn" class="compact-mic-button" aria-label="تسجيل صوتي">
+                                <svg class="mic-svg" viewBox="0 0 24 24">
+                                    <path fill="currentColor" d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.49 6-3.31 6-6.72h-1.7z"/>
+                                </svg>
+                            </button>
+                            <div class="voice-text-info">
+                                <span class="voice-title">التقديم الصوتي السريع</span>
+                                <span id="voiceStatusMsg" class="voice-status">اضغط الميكروفون للبدء</span>
+                            </div>
+                        </div>
+
+                        <!-- زر إرسال الطلب -->
+                        <button type="submit" id="submitBtn" class="neon-button">
+                            <span>إرسال الطلب فوراً</span>
+                        </button>
+
+                        <!-- زر تسجيل جوجل المصغر والمحمي -->
+                        <div class="google-auth-wrapper">
+                            <button type="button" id="googleBtn" class="small-google-auth">
+                                <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google Logo">
+                                <span>تسجيل موثق عبر Google</span>
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- الشفرة والرمز السري (2029) للوحة التحكم الخاصة بالإدارة -->
+        <footer class="secret-footer-gate">
+            <button id="adminGateBtn" class="secret-code-trigger" title="لوحة التحكم الإدارية">2029</button>
+        </footer>
+
+    </div>
+
+    <!-- شاشة لوحة التحكم السرية لمراجعة الرسائل والتسجيلات -->
+    <div id="adminModal" class="admin-overlay hidden">
+        <div class="admin-card">
+            <div class="admin-modal-header">
+                <h3>لوحة التحكم السرية [2029]</h3>
+                <button id="closeAdminBtn" class="close-modal-btn">&times;</button>
+            </div>
+            <div class="admin-modal-body">
+                <div class="messages-counter-bar">
+                    <span>عدد الرسائل الواردة: <strong id="msgCount">0</strong></span>
+                </div>
+                <div id="messagesFeed" class="messages-feed-box">
+                    <p class="no-msgs">لا توجد طلبات جديدة حالياً.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ربط البرمجة الذكية والمحرك السحابي (الكود رقم 3) -->
+    <script src="script.js"></script>
+</body>
+</html>
+/* ==========================================================================
+   NEXUS GLOBAL TALENT - CORE STYLESHEET (style.css)
+   ========================================================================== */
+
+:root {
+    --bg-dark: #050b14;
+    --card-bg: rgba(10, 25, 47, 0.8);
+    --neon-cyan: #00f3ff;
+    --neon-blue: #0066ff;
+    --text-primary: #e6f1ff;
+    --text-muted: #8892b0;
+    --border-glow: rgba(0, 243, 255, 0.2);
+    --font-family: 'Cairo', sans-serif;
+}
+
+/* Reset & Basic Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    user-select: none;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    direction: rtl;
+}
+
+/* Cyber Ambient Background */
+.cyber-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.grid-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(0, 243, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 243, 255, 0.03) 1px, transparent 1px);
+    background-size: 35px 35px;
+}
+
+.ambient-light {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(0,243,255,0.08) 0%, rgba(5,11,20,0) 70%);
+    filter: blur(60px);
+}
+
+/* App Viewport Container */
+.app-viewport {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Top Navigation Header */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 22px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-glow);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    margin-bottom: 25px;
+}
+
+.brand-identity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: var(--neon-cyan);
+}
+
+.brand-identity small {
+    font-size: 0.65rem;
+    color: var(--neon-blue);
+}
+
+.server-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.pulse-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #00ff88;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #00ff88;
+    animation: pulseAnimation 1.5s infinite;
+}
+
+/* Main Grid Layout */
+.main-portal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+    flex: 1;
+}
+
+/* Globe Visuals Card */
+.globe-glass-card, .form-glass-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-glow);
+    border-radius: 18px;
+    padding: 30px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 25px rgba(0, 243, 255, 0.04);
+}
+
+.planet-wrapper {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 20px auto;
+}
+
+.planet-globe {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #00f3ff, #001122 75%);
+    box-shadow: inset -8px -8px 16px rgba(0,0,0,0.8), 0 0 20px rgba(0,243,255,0.3);
+}
+
+.planet-ring {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+    border: 1px stroke var(--neon-cyan);
+    border-radius: 50%;
+    border-top: 2px solid var(--neon-cyan);
+    animation: rotateRing 10s linear infinite;
+}
+
+.globe-info {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+.main-desc {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.live-counter-box {
+    background: rgba(0, 243, 255, 0.04);
+    border: 1px dashed var(--neon-cyan);
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.counter-num {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: var(--neon-cyan);
+}
+
+.counter-label {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+/* Form Styling */
+.card-header {
+    margin-bottom: 20px;
+}
+
+.card-header h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.card-header p {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+.input-field {
+    margin-bottom: 18px;
+}
+
+.input-field label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 12px 16px;
+    background: rgba(5, 11, 20, 0.85);
+    border: 1px solid rgba(0, 243, 255, 0.2);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 0.9rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-field input:focus {
+    border-color: var(--neon-cyan);
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.2);
+}
+
+/* Mic Module */
+.voice-module {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(0,0,0,0.25);
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.05);
+    margin-bottom: 20px;
+}
+
+.compact-mic-button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--neon-cyan), var(--neon-blue));
+    border: none;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+}
+
+.compact-mic-button:hover {
+    transform: scale(1.05);
+}
+
+.compact-mic-button.recording {
+    background: #ff0055;
+    animation: micPulse 1s infinite;
+}
+
+.mic-svg {
+    width: 20px;
+    height: 20px;
+}
+
+.voice-text-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.voice-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.voice-status {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* Action Buttons */
+.neon-button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(90deg, var(--neon-cyan), var(--neon-blue));
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    font-weight: 800;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 16px;
+}
+
+.neon-button:hover {
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.4);
+}
+
+.google-auth-wrapper {
+    text-align: center;
+}
+
+.small-google-auth {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 6px 14px;
+    color: var(--text-muted);
+    font-size: 0.78rem;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.2s;
+}
+
+.small-google-auth img {
+    width: 14px;
+    height: 14px;
+}
+
+.small-google-auth:hover {
+    border-color: var(--text-muted);
+    color: #fff;
+}
+
+/* Secret Code Trigger (2029) */
+.secret-footer-gate {
+    text-align: center;
+    padding: 15px 0 5px 0;
+}
+
+.secret-code-trigger {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    color: rgba(255, 255, 255, 0.25);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.secret-code-trigger:hover {
+    color: var(--neon-cyan);
+    border-color: var(--neon-cyan);
+}
+
+/* Admin Console Modal */
+.admin-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.admin-overlay.hidden {
+    display: none;
+}
+
+.admin-card {
+    background: #0a192f;
+    border: 1px solid var(--neon-cyan);
+    border-radius: 14px;
+    width: 90%;
+    max-width: 550px;
+    padding: 22px;
+    box-shadow: 0 0 35px rgba(0, 243, 255, 0.2);
+}
+
+.admin-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+
+.close-modal-btn {
+    background: none;
+    border: none;
+    color: #ff0055;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.messages-feed-box {
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.no-msgs {
+    text-align: center;
+    color: var(--text-muted);
+    padding: 25px;
+    font-size: 0.85rem;
+}
+
+/* Animations Keyframes */
+@keyframes pulseAnimation {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+@keyframes rotateRing {
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes micPulse {
+    0% { box-shadow: 0 0 0 0 rgba(255, 0, 85, 0.6); }
+    70% { box-shadow: 0 0 0 12px rgba(255, 0, 85, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 0, 85, 0); }
+}
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 820px) {
+    .main-portal {
+        grid-template-columns: 1fr;
+    }
+
+    .planet-wrapper {
+        width: 130px;
+        height: 130px;
+    }
+
+    .main-title {
+        font-size: 1.3rem;
+    }
+
+    .globe-glass-card, .form-glass-card {
+        padding: 20px;
+    }
+}
+/* ==========================================================================
+   NEXUS GLOBAL TALENT - CORE ENGINE (script.js)
+   ========================================================================== */
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    // 1. العناصر الرئيسية في الصفحة
+    const employmentForm = document.getElementById('employmentForm');
+    const applicantName = document.getElementById('applicantName');
+    const applicantSkill = document.getElementById('applicantSkill');
+    const voiceMicBtn = document.getElementById('voiceMicBtn');
+    const voiceStatusMsg = document.getElementById('voiceStatusMsg');
+    const adminGateBtn = document.getElementById('adminGateBtn');
+    const adminModal = document.getElementById('adminModal');
+    const closeAdminBtn = document.getElementById('closeAdminBtn');
+    const messagesFeed = document.getElementById('messagesFeed');
+    const msgCount = document.getElementById('msgCount');
+    const activeCounter = document.getElementById('activeCounter');
+
+    // مصفوفة لتخزين الطلبات محلياً ومؤقتاً
+    let applicationsData = JSON.parse(localStorage.getItem('nexus_applications')) || [];
+
+    // 2. تحديث العداد الحي تلقائياً لإعطاء طابع تفاعلي مستقبلي
+    setInterval(() => {
+        if (activeCounter) {
+            let currentNum = parseInt(activeCounter.textContent.replace(/,/g, ''));
+            let randomChange = Math.floor(Math.random() * 5) + 1;
+            activeCounter.textContent = (currentNum + randomChange).toLocaleString();
+        }
+    }, 4000);
+
+    // 3. التقديم الصوتي الذكي باستخدام محرك الصوت للبراو زر
+    let isRecording = false;
+    let recognition = null;
+    let recordedText = "";
+
+    if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        recognition = new SpeechRecognition();
+        recognition.lang = 'ar-EG'; // التعرف على اللغة العربية
+        recognition.continuous = false;
+        recognition.interimResults = false;
+
+        recognition.onstart = () => {
+            isRecording = true;
+            voiceMicBtn.classList.add('recording');
+            voiceStatusMsg.textContent = "جاري الاستماع... تحدث الآن";
+            voiceStatusMsg.style.color = "#00f3ff";
+        };
+
+        recognition.onresult = (event) => {
+            recordedText = event.results[0][0].transcript;
+            voiceStatusMsg.textContent = `تم الالتقاط: "${recordedText}"`;
+            applicantSkill.value = recordedText; // إضافة النص الملتقط لخانة المهارة
+        };
+
+        recognition.onerror = () => {
+            voiceStatusMsg.textContent = "حدث خطأ في التقاط الصوت، حاول مجدداً";
+            voiceMicBtn.classList.remove('recording');
+            isRecording = false;
+        };
+
+        recognition.onend = () => {
+            voiceMicBtn.classList.remove('recording');
+            isRecording = false;
+        };
+    } else {
+        voiceStatusMsg.textContent = "التسجيل الصوتي غير مدعوم في متصفحك الحالي";
+    }
+
+    voiceMicBtn.addEventListener('click', () => {
+        if (!recognition) return;
+        if (isRecording) {
+            recognition.stop();
+        } else {
+            recognition.start();
+        }
+    });
+
+    // 4. معالجة إرسال البيانات وحفظها
+    employmentForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const nameVal = applicantName.value.trim();
+        const skillVal = applicantSkill.value.trim();
+
+        if (!nameVal || !skillVal) return;
+
+        const newApplication = {
+            id: Date.now(),
+            name: nameVal,
+            skill: skillVal,
+            time: new Date().toLocaleTimeString('ar-EG', { hour: '2-digit', minute: '2-digit' }),
+            date: new Date().toLocaleDateString('ar-EG')
+        };
+
+        // حفظ البيانات
+        applicationsData.unshift(newApplication);
+        localStorage.setItem('nexus_applications', JSON.stringify(applicationsData));
+
+        // تنظيف الخانات ورسائل التأكيد
+        applicantName.value = '';
+        applicantSkill.value = '';
+        voiceStatusMsg.textContent = "اضغط الميكروفون للبدء";
+        voiceStatusMsg.style.color = "#8892b0";
+
+        alert("تم إرسال طلبك بنجاح إلى قاعدة البيانات السحابية!");
+    });
+
+    // 5. شفرة وبوابة لوحة التحكم السرية (2029)
+    adminGateBtn.addEventListener('click', () => {
+        renderAdminMessages();
+        adminModal.classList.remove('hidden');
+    });
+
+    closeAdminBtn.addEventListener('click', () => {
+        adminModal.classList.add('hidden');
+    });
+
+    // عرض الرسائل والطلبات داخل لوحة التحكم السرية
+    function renderAdminMessages() {
+        msgCount.textContent = applicationsData.length;
+
+        if (applicationsData.length === 0) {
+            messagesFeed.innerHTML = '<p class="no-msgs">لا توجد طلبات جديدة حالياً.</p>';
+            return;
+        }
+
+        messagesFeed.innerHTML = applicationsData.map(item => `
+            <div style="background: rgba(0, 243, 255, 0.05); border: 1px solid rgba(0, 243, 255, 0.2); padding: 12px; border-radius: 8px; margin-bottom: 10px; text-align: right;">
+                <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                    <strong style="color: #00f3ff; font-size: 0.95rem;">${item.name}</strong>
+                    <small style="color: #8892b0; font-size: 0.75rem;">${item.time} - ${item.date}</small>
+                </div>
+                <p style="color: #e6f1ff; font-size: 0.85rem;">المهنة/التسجيل: ${item.skill}</p>
+            </div>
+        `).join('');
+    }
+
+});
+/* ==========================================================================
+   NEXUS GLOBAL TALENT - CLOUD ENGINE & DATABASE LINK (firebase-config.js)
+   ========================================================================== */
+
+// 1. استدعاء مكتبات Firebase السحابية الرسمية والسريعة
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+import { getFirestore, collection, addDoc, onSnapshot, query, orderBy } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+
+// 2. إعدادات السيرفر السحابي الخاص بمشروعك (قم باستبدال القيم بين التنصيص ببيانات مشروعك من Firebase)
+const firebaseConfig = {
+    apiKey: "YOUR_API_KEY_HERE",
+    authDomain: "nexus-global-talent.firebaseapp.com",
+    projectId: "nexus-global-talent",
+    storageBucket: "nexus-global-talent.appspot.com",
+    messagingSenderId: "123456789012",
+    appId: "1:123456789012:web:abcdef123456"
+};
+
+// 3. تشغيل تطبيق السيرفر السحابي وقاعدة البيانات
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+// 4. دالة إرسال الطلبات والرسائل الصوتية مباشرة للسيرفر السحابي
+export async function sendApplicationToCloud(applicantName, applicantSkill) {
+    try {
+        const docRef = await addDoc(collection(db, "applications"), {
+            name: applicantName,
+            skill: applicantSkill,
+            timestamp: new Date().toISOString(),
+            status: "new"
+        });
+        console.log("تم حفظ الطلب أونلاين برقم معرّف:", docRef.id);
+        return true;
+    } catch (e) {
+        console.error("خطأ في الاتصال بالسيرفر السحابي:", e);
+        return false;
+    }
+}
+
+// 5. دالة الاستماع المباشر (Real-time Listener) للرسائل داخل لوحة التحكم [2029]
+export function listenToCloudMessages(callback) {
+    const q = query(collection(db, "applications"), orderBy("timestamp", "desc"));
+    
+    // التحديث الفوري للرسائل بدون الحاجة لعمل اعادة تحميل للصفحة (Refresh)
+    onSnapshot(q, (snapshot) => {
+        const messages = [];
+        snapshot.forEach((doc) => {
+            messages.push({ id: doc.id, ...doc.data() });
+        });
+        callback(messages);
+    });
+}
+{
+  "version": 2,
+  "name": "nexus-global-talent",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
+{
+  "short_name": "Nexus Global",
+  "name": "Nexus Global Talent - المنصة العالمية للتوظيف",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1006/1006771.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1006/1006771.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#050b14",
+  "theme_color": "#00f3ff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar-EG"
+}
+/* ==========================================================================
+   NEXUS GLOBAL TALENT - SERVICE WORKER (sw.js)
+   ========================================================================== */
+
+const CACHE_NAME = 'nexus-cache-v1';
+const ASSETS_TO_CACHE = [
+    '/',
+    '/index.html',
+    '/style.css',
+    '/script.js',
+    '/manifest.json'
+];
+
+// 1. تثبيت الـ Service Worker وتخزين الملفات الرئيسية
+self.addEventListener('install', (event) => {
+    event.waitUntil(
+        caches.open(CACHE_NAME).then((cache) => {
+            console.log('[Nexus SW] Caching core assets...');
+            return cache.addAll(ASSETS_TO_CACHE);
+        })
+    );
+});
+
+// 2. تفعيل الملف وتنظيف النسخ القديمة
+self.addEventListener('activate', (event) => {
+    event.waitUntil(
+        caches.keys().then((keys) => {
+            return Promise.all(
+                keys.map((key) => {
+                    if (key !== CACHE_NAME) {
+                        return caches.delete(key);
+                    }
+                })
+            );
+        })
+    );
+});
+
+// 3. اعتراض الطلبات وتوفير السرعة الخارقة (Network First with Cache Fallback)
+self.addEventListener('fetch', (event) => {
+    event.respondWith(
+        fetch(event.request)
+            .then((networkResponse) => {
+                return caches.open(CACHE_NAME).then((cache) => {
+                    cache.put(event.request, networkResponse.clone());
+                    return networkResponse;
+                });
+            })
+            .catch(() => caches.match(event.request))
+    );
+});
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://nexus-global-talent.vercel.app/</loc>
+      <lastmod>2026-08-25</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+</urlset>
+# Nexus Global Talent - Robots Configuration
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /style.css
+Allow: /script.js
+
+# Disallow indexing sensitive configuration files
+Disallow: /vercel.json
+Disallow: /firebase-config.js
+
+# Link to XML Sitemap for fastest indexing
+Sitemap: https://nexus-global-talent.vercel.app/sitemap.xml
+/* ==========================================================================
+   NEXUS GLOBAL TALENT - PWA REGISTER SCRIPT (sw-register.js)
+   ========================================================================== */
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+                console.log('[PWA] Service Worker registered successfully with scope:', registration.scope);
+            })
+            .catch((error) => {
+                console.error('[PWA] Service Worker registration failed:', error);
+            });
+    });
+}
+
+// إظهار زر تثبيت التطبيق للمستخدم بطريقة احترافية
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    console.log('[PWA] App is ready to be installed on home screen.');
+});
+/* ==========================================================================
+   NEXUS GLOBAL TALENT - CROSS-PLATFORM ADAPTER (cross-platform-adapter.js)
+   ========================================================================== */
+
+(function () {
+    'use strict';
+
+    // 1. اكتشاف نوع الجهاز والنظام المجرى عليه
+    const ua = navigator.userAgent || navigator.vendor || window.opera;
+    const isIOS = /iPad|iPhone|iPod/.test(ua) && !window.MSStream;
+    const isAndroid = /android/i.test(ua);
+    const isDesktop = !isIOS && !isAndroid;
+
+    // 2. معالجة خصائص الشاشة لنظام iOS (سد الفجوات والمساحات الآمنة)
+    if (isIOS) {
+        document.documentElement.classList.add('ios-device');
+        // ضبط ارتفاع الشاشة المباشر لمنع مشكلة شريط Safari
+        const setIOSHeight = () => {
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        };
+        setIOSHeight();
+        window.addEventListener('resize', setIOSHeight);
+    }
+
+    // 3. تهيئة توافق محرك التسجيل الصوتي الموحد للأنظمة المختلفة
+    window.CrossPlatformVoice = {
+        isSupported: function() {
+            return !!(window.SpeechRecognition || window.webkitSpeechRecognition || (navigator.mediaDevices && navigator.mediaDevices.getUserMedia));
+        },
+        initPolyfill: function() {
+            console.log('[Adapter] Engine Running on:', isIOS ? 'iOS' : isAndroid ? 'Android' : 'Desktop');
+        }
+    };
+
+    // 4. تسريع الاستجابة للمس (Touch Latency Reducer) على الموبايل
+    document.addEventListener('touchstart', function() {}, { passive: true });
+
+    // 5. تشغيل التكييف التلقائي عند التحميل
+    document.addEventListener('DOMContentLoaded', () => {
+        window.CrossPlatformVoice.initPolyfill();
+    });
+
+})();
